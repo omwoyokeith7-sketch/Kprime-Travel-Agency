@@ -78,3 +78,9 @@ footer {background:#0a2a43;color:white;text-align:center;padding:40px 20px;}
 
 </body>
 </html>
+<form action="https://formspree.io/f/your_form_id" method="POST">
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="text" name="phone" placeholder="Phone" required>
+  <textarea name="request" placeholder="Destination / Travel Dates"></textarea>
+  <button type="submit">Submit</button>
+</form>
